@@ -6,6 +6,6 @@ public class DontDestroyAudio : MonoBehaviour
 {
    void Awake() 
    {
-        DontDestroyOnLoad(transform.gameObject);
+        DontDestroyOnLoad(transform.gameObject); //azet kell, hogy jelenet valtasok kozott ne szakitsa meg a zenet
    }
 }
