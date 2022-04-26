@@ -1,0 +1,4 @@
+FindObjectOfType<AudioManager>().Play("PlayerHurt"); 
+
+//Hang effect hozzadása. Ezt kell a scriptbe oda rakni ahol szeretnénk, hogy lejátsza a hang effect-et.
+//Az Audio Manager egy tömbben tárolja az összes hangeffectet. Ott mindegyiknek meg van adva egy név. A pl esetében "PlayerHurt". A FinObjectType pedig ki keresi a megadott nevű hangot a tömbből és lejátsza.
